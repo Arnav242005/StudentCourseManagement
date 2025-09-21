@@ -1,0 +1,61 @@
+.students-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Table styles */
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.students-table th,
+.students-table td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.students-table th {
+  background-color: #6e8efb;
+  color: white;
+  font-weight: 600;
+}
+
+.students-table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.students-table tr:hover {
+  background-color: #e0e7ff;
+}
+
+.no-data {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Optional: style the search bar if not already */
+.students-container input {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+}
+
+.students-container input:focus {
+  border-color: #6e8efb;
+}
